@@ -6,7 +6,7 @@ public class ItemEletronico extends ItemInventario<String>{
     private String voltagem;
     private String marca;
 
-    public ItemEletronico(String nome, double valorUnitario, boolean ativo, Categoria categoria, String identificador) {
+    public ItemEletronico(String nome, double valorUnitario, boolean ativo, Categoria categoria, String identificador, String voltagem, String marca) {
         super(nome, valorUnitario, ativo, categoria, identificador);
         this.voltagem = voltagem;
         this.marca = marca;
