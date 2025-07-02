@@ -1,7 +1,12 @@
 package app;
 
+import controller.InventarioController;
+import view.InventarioView;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
+        InventarioController controller = new InventarioController();
+        InventarioView view = new InventarioView(controller);
+        view.iniciar();
     }
 }
