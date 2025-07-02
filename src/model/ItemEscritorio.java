@@ -3,12 +3,12 @@ package model;
 import enums.Categoria;
 
 public class ItemEscritorio extends ItemInventario<String>{
-    private String setorResponsavel;
-    private String nomeResponsavel;
+    private String tipoMaterial;
+    private int quantidadeNoPacote;
 
-    public ItemEscritorio(String nome, double valorUnitario, boolean ativo, Categoria categoria, String identificador){
+    public ItemEletronico(String nome, double valorUnitario, boolean ativo, Categoria categoria, String identificador){
         super(nome, valorUnitario, ativo, categoria, identificador);
-        this.setorResponsavel = setorResponsavel;
-        this.nomeResponsavel = nomeResponsavel;
+        this.tipoMaterial = tipoMaterial;
+        this.quantidadeNoPacote = quantidadeNoPacote;
     }
 }
