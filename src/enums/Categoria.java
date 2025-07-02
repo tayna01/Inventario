@@ -1,4 +1,7 @@
 package enums;
 
-public class Categoria {
+public enum Categoria {
+    ELETRONICO,
+    ESCRITORIO,
+    ADMINISTRATIVO;
 }
